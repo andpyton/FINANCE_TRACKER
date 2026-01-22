@@ -3,7 +3,7 @@ from manager import FinanceManager
 
 if __name__ == "__main__":
 
-    name = input("Enter yout name: ")
+    name = input("Enter your name: ")
     user = User(name)
     manager = FinanceManager(user)
     manager.run()
