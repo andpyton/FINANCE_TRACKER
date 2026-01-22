@@ -10,7 +10,7 @@ class Transaction:
             raise ValueError("Value must be greater than zero.")
         # This will verify if t_type is 'income' or 'expense'.
         if t_type not in ("income", "expense"):
-            raise ValueError("Transaction tpe must be 'Income' or 'expense'")
+            raise ValueError("Transaction type must be 'Income' or 'expense'")
         
         self.amount=amount
         self.category = category
